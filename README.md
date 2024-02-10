@@ -25,3 +25,55 @@ EFI configuration for HP EliteBook 850 G5 with macOS Ventura.
 - [ ] USB 3 Ports (To fix, the OS detect the device but cannot mount it)
 - [ ] LAN/Ethernet (Not tested)
 - [ ] HDMI Out
+
+## System specification
+
+```txt
+─ CPU
+  └── Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+      ├── SSE: SSE4.2
+      ├── SSSE3: Supported
+      ├── Cores: 4
+      └── Threads: 8
+
+─ Motherboard
+  ├── Model: 83B2
+  └── Vendor: HP
+
+─ GPU
+  └── UHD Graphics 620
+      ├── Device ID: 0x5917
+      ├── Vendor: 0x8086
+      ├── ACPI Path: \_SB_.PCI0.GFX0
+      └── PCI Path: PciRoot(0x0)/Pci(0x2,0x0)
+
+─ Network
+  ├── Ethernet Connection (4) I219-LM
+  │   ├── Device ID: 0x15d7
+  │   ├── Vendor: 0x8086
+  │   ├── ACPI Path: \_SB_.PCI0.GLAN
+  │   └── PCI Path: PciRoot(0x0)/Pci(0x1f,0x6)
+  └── Wireless 8265 / 8275
+      ├── Device ID: 0x24fd
+      ├── Vendor: 0x8086
+      ├── ACPI Path: \_SB_.PCI0.RP04.PXSX
+      └── PCI Path: PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)
+
+─ Audio
+  └── Sunrise Point-LP HD Audio
+      ├── Device ID: 0x9d71
+      ├── Vendor: 0x8086
+      ├── ACPI Path: \_SB_.PCI0.HDAS
+      ├── PCI Path: PciRoot(0x0)/Pci(0x1f,0x3)
+      └── Codec: CX8200
+
+─ Storage
+  ├── ADATA USB Flash Drive
+  │   ├── Type: Hard Disk Drive (HDD)
+  │   ├── Connector: SCSI
+  │   └── Location: External
+  └── ATA SanDisk SD9SN8W-
+      ├── Type: Solid State Drive (SSD)
+      ├── Connector: SCSI
+      └── Location: Internal
+```

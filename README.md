@@ -2,6 +2,8 @@
 
 EFI configuration for HP EliteBook 850 G5 with macOS Ventura.
 
+![Hackintosh demo](https://github.com/heryTz/HP-EliteBook-850-G5-Hackintosh/blob/main/demo.png)
+
 ## Setup
 
 1. Creating the USB [↗️](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).

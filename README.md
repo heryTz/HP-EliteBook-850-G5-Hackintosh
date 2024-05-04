@@ -24,7 +24,7 @@ EFI configuration for HP EliteBook 850 G5 with macOS Ventura.
 - [x] Trackpad with gestures
 - [x] Battery percentage/status
 - [x] Fn keys to change volume or brightness
-- [ ] USB 3 Ports (To fix, the OS detect the device but cannot mount it)
+- [x] USB 3 Ports
 - [ ] LAN/Ethernet (Not tested)
 - [ ] HDMI Out
 
